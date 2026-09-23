@@ -165,6 +165,8 @@ namespace CoverShooter
             _controller.WaitForUpdateCall = true;
 
             _eventCore = GameObject.Find("EventCoreManager").GetComponent<EventCore>();
+            _eventCore.UE_UpdateMedKitUi.Invoke(AvalibleMedKits);
+            _eventCore.UE_PickUpMedkit.AddListener(PickedUpMedKit);
         }
 
         private void Update()
@@ -205,15 +207,20 @@ namespace CoverShooter
         protected void HealCharacter()
         {
             if(GetComponent<CharacterHealth>() == null)
-                { return; }
-            
+                return; 
             if(AvalibleMedKits == 0)
                 return;
+
+            Debug.Log("Using a med kit" + AvalibleMedKits);
             AvalibleMedKits--;
-            _eventCore.UE_UsedMedKit.Invoke(AvalibleMedKits);
+            _eventCore.UE_UpdateMedKitUi.Invoke(AvalibleMedKits);
             GetComponent<CharacterHealth>().Heal(MedPackHeal);
         }
-
+        protected void PickedUpMedKit(string incomingName)
+        {
+            AvalibleMedKits++;
+            _eventCore.UE_UpdateMedKitUi.Invoke(AvalibleMedKits);
+        }
         protected virtual void UpdateMovement()
         {
             var local = Input.GetAxis("Horizontal") * Vector3.right +
