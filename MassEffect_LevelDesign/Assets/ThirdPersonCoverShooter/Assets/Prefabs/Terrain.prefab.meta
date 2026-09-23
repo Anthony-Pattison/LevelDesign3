@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0caece5fef271174f9dd7774803fa72c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Prefabs/Terrain.prefab
+  uploadId: 883304

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2154068d010cfe64f8109feacc3168fb
+timeCreated: 1490880109
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Particles/gun.prefab
+  uploadId: 883304

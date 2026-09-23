@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 89ecf8c2ac9e7214cbabe079b0754ffd
+timeCreated: 1498224005
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Thompson/Materials/Bullet.mat
+  uploadId: 883304

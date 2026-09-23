@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cef9d7f352743bd4083dd5f21f84a1ac
+timeCreated: 1471607797
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Shell/Trail_01.mat
+  uploadId: 883304

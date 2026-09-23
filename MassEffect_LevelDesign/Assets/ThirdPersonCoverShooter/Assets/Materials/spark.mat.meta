@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1e84ca14983b944a95e8384db7d7589
+timeCreated: 1468540008
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Materials/spark.mat
+  uploadId: 883304

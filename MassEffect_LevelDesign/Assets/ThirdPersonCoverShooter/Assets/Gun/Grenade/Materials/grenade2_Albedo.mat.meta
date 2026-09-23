@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 78ce4bbc336be914c9f4c135fee09a9e
+timeCreated: 1504265723
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Grenade/Materials/grenade2_Albedo.mat
+  uploadId: 883304

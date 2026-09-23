@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c54a961c2a783ec49ac7d26ea5d06561
+timeCreated: 1504170027
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Materials/SmokePreview.mat
+  uploadId: 883304

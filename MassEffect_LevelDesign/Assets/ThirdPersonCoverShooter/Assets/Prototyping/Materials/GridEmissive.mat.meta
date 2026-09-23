@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8e0cf19a57ff6c4b99a7dea8e0b04db
+timeCreated: 1485431114
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Prototyping/Materials/GridEmissive.mat
+  uploadId: 883304

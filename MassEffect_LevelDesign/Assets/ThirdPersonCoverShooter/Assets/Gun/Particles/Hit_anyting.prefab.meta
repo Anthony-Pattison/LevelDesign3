@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b9668af9fc4aa3c4c9c80cc328e7c6d4
+timeCreated: 1490878536
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Particles/Hit_anyting.prefab
+  uploadId: 883304

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8c70c1d6320bb345b1e55f0eb52bb03
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Scenes/Third person cover NewAI/LightingData.asset
+  uploadId: 883304

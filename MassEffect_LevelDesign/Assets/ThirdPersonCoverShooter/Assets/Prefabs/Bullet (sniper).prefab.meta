@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ac80d54732e2234cb9adbc29ffd68c5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Prefabs/Bullet (sniper).prefab
+  uploadId: 883304

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 770a94dbe6012c442bcd39cc2f52e5bd
+timeCreated: 1453532894
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Prototyping/Grass/Materials/09
+    - Default 1.mat
+  uploadId: 883304

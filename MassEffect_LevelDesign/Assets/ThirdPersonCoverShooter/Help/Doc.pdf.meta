@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4b7802cf5fc79cf40ad06b995f9b7705
+timeCreated: 1528716761
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Help/Doc.pdf
+  uploadId: 883304

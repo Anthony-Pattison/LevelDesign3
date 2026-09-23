@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d213f744099a1bb4d8fe1d73ccf38b9d
+timeCreated: 1490779066
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Materials/sky.mat
+  uploadId: 883304

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a96470e06b335345864b2aeacd0d0ba
+timeCreated: 1485851444
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Animations/Mecanim assets/BodyNoIK.mask
+  uploadId: 883304

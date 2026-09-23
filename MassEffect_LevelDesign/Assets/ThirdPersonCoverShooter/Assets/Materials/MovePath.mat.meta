@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 59b5028f63521bd4bbaecd4afa9a4c6e
+timeCreated: 1504170027
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Materials/MovePath.mat
+  uploadId: 883304

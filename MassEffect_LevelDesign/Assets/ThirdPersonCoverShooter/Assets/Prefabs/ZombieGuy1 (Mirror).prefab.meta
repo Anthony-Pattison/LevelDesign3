@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6a61a05006bf214ba58d65057b2b719
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Prefabs/ZombieGuy1 (Mirror).prefab
+  uploadId: 883304

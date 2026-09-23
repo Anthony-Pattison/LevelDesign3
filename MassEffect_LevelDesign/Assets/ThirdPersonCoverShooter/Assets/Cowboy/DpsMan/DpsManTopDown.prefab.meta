@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: af6cd5c21d91b0843b88decbde908bef
+timeCreated: 1523859302
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Cowboy/DpsMan/DpsManTopDown.prefab
+  uploadId: 883304

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8de9dde06a290424db645b25fba5d57b
+timeCreated: 1524162989
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Gun/Pistol/Materials/pistol_u_Albedo.mat
+  uploadId: 883304

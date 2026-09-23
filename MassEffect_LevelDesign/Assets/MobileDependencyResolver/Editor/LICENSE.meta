@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a0a74f7579114ab58b46e496d4b2ba97
+labels:
+- gvh_version-1.2.185
+- gvhp_exportpath-ExternalDependencyManager/Editor/LICENSE
+- gvh
+timeCreated: 1584567712
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/MobileDependencyResolver/Editor/LICENSE
+  uploadId: 883304

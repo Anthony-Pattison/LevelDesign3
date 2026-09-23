@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8a410b7ee2986040807d064d0bf42ae
+timeCreated: 1490725196
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Assets/Cowboy-mobile/Materials/colormap_mustaches.mat
+  uploadId: 883304

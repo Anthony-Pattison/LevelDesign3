@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 913d123da76f1c648b81029071976779
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/PistolAnimsetPro/Materials/DecalBulletHole.mat
+  uploadId: 883304

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bb09a45e1e4d31d4085277e482d9472d
+timeCreated: 1493015886
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88424
+  packageName: Third Person Cover Shooter Template
+  packageVersion: 1.7
+  assetPath: Assets/ThirdPersonCoverShooter/Animations/Other animation/Animated platform.controller
+  uploadId: 883304
