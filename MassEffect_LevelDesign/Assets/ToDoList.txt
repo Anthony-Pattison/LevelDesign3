@@ -1,0 +1,21 @@
+COMBAT/Damaging
+add in the ability to shoot missiles 
+add the magic missiles (samething but blue)
+add in enemies taking damage form the missiles
+add in a misslie that damages enemies over time
+
+HEALING
+add in the ability to heal wounds based on medkits avalible to the player
+have a cooldown for how often you can heal
+
+
+TEXT/NARRATIVE
+add in the text package that I have
+look into pausing the game for the narrative sections
+ 
+COMPANIONS
+add in two other NPC that fight for you
+
+CAMERA
+Bring the camera closer to the player
+import the camera animator
