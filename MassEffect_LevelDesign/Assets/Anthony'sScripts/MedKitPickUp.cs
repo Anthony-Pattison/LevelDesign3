@@ -12,6 +12,7 @@ public class MedKitPickUp : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             _eventCore.UE_PickUpMedkit.Invoke(other.tag);
+            this.gameObject.SetActive(false);
         }
     }
 }

@@ -459,6 +459,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Anthony'sScripts/EventCore.cs"
 "Assets/Anthony'sScripts/MedKitPickUp.cs"
+"Assets/Anthony'sScripts/MedkitVisualCoolDown.cs"
 "Assets/Anthony'sScripts/UiMedKits.cs"
 "Assets/SimpleCameraController.cs"
 "Assets/ThirdPersonCoverShooter/Scripts/AI/AICoverUtil.cs"

@@ -137,6 +137,12 @@ namespace CoverShooter
         [Tooltip("The amount of health that a med pack heals")]
         public float MedPackHeal;
 
+        /// <summary>
+        /// The amount time in between the times of a heal
+        /// </summary>
+        [Tooltip("The amount time in between the times of a heal")]
+        public float HealCoolDown;
+
         private CharacterMotor _motor;
         private ThirdPersonController _controller;
         private CharacterInventory _inventory;
@@ -148,6 +154,7 @@ namespace CoverShooter
         private float _timeA;
         private float _timeS;
         private float _timeD;
+        private float _healCoolDown = 5;
 
         private float _leftMoveIntensity = 1;
         private float _rightMoveIntensity = 1;
@@ -186,8 +193,8 @@ namespace CoverShooter
             UpdateCrouching();
            // UpdateClimbing();
             UpdateCover();
-           // UpdateJumping();
-
+            // UpdateJumping();
+            HealTimer();
             _controller.ManualUpdate();
         }
 
@@ -203,17 +210,23 @@ namespace CoverShooter
                         SendMessage("OnCustomAction", action.Name, SendMessageOptions.RequireReceiver);
                 }
         }
-
+        #region Character Healing
+        protected void HealTimer()
+        {
+            _healCoolDown -= Time.deltaTime;
+        }
         protected void HealCharacter()
         {
             if(GetComponent<CharacterHealth>() == null)
                 return; 
             if(AvalibleMedKits == 0)
                 return;
-
-            Debug.Log("Using a med kit" + AvalibleMedKits);
+            if (_healCoolDown >= 0)
+                return;
             AvalibleMedKits--;
             _eventCore.UE_UpdateMedKitUi.Invoke(AvalibleMedKits);
+            _eventCore.UE_UsedMedKit.Invoke();
+            _healCoolDown = HealCoolDown;
             GetComponent<CharacterHealth>().Heal(MedPackHeal);
         }
         protected void PickedUpMedKit(string incomingName)
@@ -221,6 +234,8 @@ namespace CoverShooter
             AvalibleMedKits++;
             _eventCore.UE_UpdateMedKitUi.Invoke(AvalibleMedKits);
         }
+
+        #endregion
         protected virtual void UpdateMovement()
         {
             var local = Input.GetAxis("Horizontal") * Vector3.right +

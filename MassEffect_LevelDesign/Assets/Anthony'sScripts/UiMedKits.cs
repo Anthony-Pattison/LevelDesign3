@@ -15,12 +15,12 @@ public class UiMedKits : MonoBehaviour
 
     private void UpdateUIText(int medkitsAvalible)
     {
+
         if (medkitsAvalible == 0)
         {
             _displayText.text = $"No medkits";
             return;
         }
-        print("updating");
         _displayText.text = $"Medkits: {medkitsAvalible}";
     }
 }
