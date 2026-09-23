@@ -5,8 +5,8 @@ add in enemies taking damage form the missiles
 add in a misslie that damages enemies over time
 
 HEALING
-add in the ability to heal wounds based on medkits avalible to the player
-have a cooldown for how often you can heal
+add in the ability to heal wounds based on medkits avalible to the player//
+have a cooldown for how often you can heal//
 
 
 TEXT/NARRATIVE
@@ -17,5 +17,5 @@ COMPANIONS
 add in two other NPC that fight for you
 
 CAMERA
-Bring the camera closer to the player
+Bring the camera closer to the player (after looking into this i dont think it needs to be done)
 import the camera animator

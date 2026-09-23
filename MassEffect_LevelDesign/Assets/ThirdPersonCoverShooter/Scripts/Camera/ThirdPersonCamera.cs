@@ -87,6 +87,11 @@ namespace CoverShooter
         public CameraStates States = CameraStates.GetDefault();
 
         /// <summary>
+        /// For fine tuning the cameras placement
+        /// </summary>
+        [Tooltip("Camera Offset")]
+        public Vector3 offset;
+        /// <summary>
         /// Horizontal orientation of the camera in degrees.
         /// </summary>
         [HideInInspector]
