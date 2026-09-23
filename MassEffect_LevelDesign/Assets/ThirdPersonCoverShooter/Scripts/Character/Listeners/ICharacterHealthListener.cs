@@ -13,5 +13,6 @@ namespace CoverShooter
         /// Character is no longer dead.
         /// </summary>
         void OnResurrect();
+
     }
 }

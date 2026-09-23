@@ -1,4 +1,5 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 
 namespace CoverShooter
@@ -124,6 +125,18 @@ namespace CoverShooter
         [Tooltip("Input is ignored when a disabler is active.")]
         public GameObject Disabler;
 
+        ///<summary>
+        ///The amount of medkits that the player has
+        /// <summary>
+        [Tooltip("The amount of medkits that the player has")]
+        public int AvalibleMedKits;
+        
+        /// <summary>
+        /// The amount of health that a med pack heals
+        /// </summary>
+        [Tooltip("The amount of health that a med pack heals")]
+        public float MedPackHeal;
+
         private CharacterMotor _motor;
         private ThirdPersonController _controller;
         private CharacterInventory _inventory;
@@ -141,6 +154,8 @@ namespace CoverShooter
         private float _backMoveIntensity = 1;
         private float _frontMoveIntensity = 1;
 
+        private EventCore _eventCore;
+
         private void Awake()
         {
             _controller = GetComponent<ThirdPersonController>();
@@ -148,6 +163,8 @@ namespace CoverShooter
             _inventory = GetComponent<CharacterInventory>();
 
             _controller.WaitForUpdateCall = true;
+
+            _eventCore = GameObject.Find("EventCoreManager").GetComponent<EventCore>();
         }
 
         private void Update()
@@ -183,6 +200,18 @@ namespace CoverShooter
                     if (action.Name != null && action.Name.Length > 0)
                         SendMessage("OnCustomAction", action.Name, SendMessageOptions.RequireReceiver);
                 }
+        }
+
+        protected void HealCharacter()
+        {
+            if(GetComponent<CharacterHealth>() == null)
+                { return; }
+            
+            if(AvalibleMedKits == 0)
+                return;
+            AvalibleMedKits--;
+            _eventCore.UE_UsedMedKit.Invoke(AvalibleMedKits);
+            GetComponent<CharacterHealth>().Heal(MedPackHeal);
         }
 
         protected virtual void UpdateMovement()
